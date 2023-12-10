@@ -11,7 +11,7 @@ function ProjectListItem({ project }) {
     <div class="card-inner">
       <div class="card-front">
         {/* <p>{project.name}</p> */}
-        <img src={project.photo_URL} alt="poject" width="260" height="220" />
+        <img src={project.photo_URL} alt="poject" width="280" height="200" />
       </div>
       <div class="card-back">
         <p>Click to learn more</p>
@@ -20,6 +20,7 @@ function ProjectListItem({ project }) {
   </div>
   <hr></hr>
     <div className='project_footer'>
+    <p>{project.name}</p>
     <GitHubIcon className="github_icon" fontSize='medium' />
     </div>
     </section>
