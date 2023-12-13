@@ -5,7 +5,7 @@ import '../App.css';
 function ProjectList({ projects }) {
 
   return (
-    <div className="project-list">
+    <div id= "projects" className="project-list" >
       {projects.map((project) => {
         return <ProjectListItem key={project.id} project={project} />;
       })}

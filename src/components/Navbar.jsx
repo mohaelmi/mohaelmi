@@ -19,8 +19,9 @@ export default function ButtonAppBar() {
     </div>
     
     <div class="nav-links">
-      <a href="#" target="_blank">PROJECTS</a>
-      <a href="#" target="_blank">HOME</a>
+      <a href="#project-item">PROJECTS</a>
+      <a href="#" >HOME</a>
+      <a href="#About" >About Me</a>
 
     </div>
   </div>
