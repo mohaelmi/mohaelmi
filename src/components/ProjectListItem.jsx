@@ -25,7 +25,7 @@ function ProjectListItem({ project }) {
   <hr></hr>
     <div className='project_footer'>
     <p>{project.name}</p>
-    <GitHubIcon className="github_icon" fontSize='medium' />
+    <a href={project.github_URL} target='_blank'> <GitHubIcon className="github_icon" fontSize='medium' /></a>
     </div>
     </section>
   );

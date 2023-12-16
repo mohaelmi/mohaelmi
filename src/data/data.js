@@ -5,7 +5,7 @@ export const projects = [
     id: 1,
     name: 'Tweeter',
     description: 'app that works perfectly',
-    photo_URL: 'https://raw.githubusercontent.com/mohaelmi/PhotoLabs/main/frontend/docs/PhotoLabs-main-page.png',
+    photo_URL: 'photo_link',
     github_URL: 'github_link'
   },
 
@@ -29,8 +29,8 @@ export const projects = [
     id: 4,
     name: 'PhotoLabs',
     description: 'app that works perfectly',
-    photo_URL: 'photo_link',
-    github_URL: 'github_link'
+    photo_URL: 'https://raw.githubusercontent.com/mohaelmi/PhotoLabs/main/frontend/docs/PhotoLabs-main-page.png',
+    github_URL: 'https://github.com/mohaelmi/PhotoLabs'
   },
   
 ]
